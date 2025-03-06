@@ -9,7 +9,7 @@
         "value": "centralindia"
         },
     "fileUris": {
-        "value": ["https://raw.githubusercontent.com/microsoft/azure_arc/refs/heads/main/azure_arc_servers_jumpstart/scripts/custom_script_linux.sh"
+        "value": ["https://raw.githubusercontent.com/delhitovizagis1800kms/test/refs/heads/main/customscript2.sh"
          ]},
       "commandToExecute": {
         "value": "./custom_script_linux.sh"
