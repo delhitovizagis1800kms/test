@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "vmName": {
+        "value": "shaktiman"
+      },
+      "location": {
+        "value": "centralindia"
+        },
+    "fileUris": {
+        "value": ["https://raw.githubusercontent.com/microsoft/azure_arc/refs/heads/main/azure_arc_servers_jumpstart/scripts/custom_script_linux.sh"
+         ]},
+      "commandToExecute": {
+        "value": "./custom_script_linux.sh"
+         }
+    }
+}
